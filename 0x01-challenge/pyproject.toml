@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "0x01-fix_my_code_challenge"
+version = "0.1.0"
+description = "Fix My Code"
+authors = ["Ifiok Ekott <ekottifiok@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
